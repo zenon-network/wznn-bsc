@@ -1,0 +1,31 @@
+{
+  "name": "wznn-bsc",
+  "version": "0.0.1",
+  "description": "BEP-20 wZNN and two-way bridge between Alphanet - Network of Momentum Phase 0 and Binance Smart Chain",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "hardhat test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zenon-network/wznn-bsc.git"
+  },
+  "author": "Zenon Network",
+  "license": "MIT",
+  "homepage": "https://github.com/zenon-network/wznn-bsc#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/hardhat-upgrades": "^1.9.0",
+    "@studydefi/money-legos": "^2.4.2",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.2",
+    "hardhat": "^2.7.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.2.0"
+  }
+}
